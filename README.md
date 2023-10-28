@@ -1,62 +1,11 @@
 # Renderbox
 
-## Project 1: Setting Up Linux Folder Sharing
+## Project 1: Sharing Videos from Laptop
 
-ftp is a network protocol for transferring files between a client and a server. We can use the ftp command-line client to connect to an ftp server and perform file transfers over the internet.
+Here I am using VSC due to it being a lot quicker and better within my setup.
 
-Firstly, before we install the vsftpd package, we need to update our packages:
+You just need a way to send your videos from your wanted device ie laptop, desktop or server to the rendering server.
 
-```
-sudo apt-get update
-sudo apt-get install vsftpd
-```
-
-Next, to allow the ftp server to communicate via the internet, let’s allow the following ports:
-
-```
-sudo ufw allow 20/tcp
-sudo ufw allow 21/tcp
-```
-
-Thirdly, to connect to a remote computer, we use the following syntax:
-
-```
-ftp [ip address or domain name]
-```
-
-Following, we’ll be prompted for a username and password:
-
-```
-ftp 192.168.9.103
-Connected to localhost.
-220 (vsFTPd 3.0.3)
-Name (localhost:nairobi): 
-331 Please specify the password.
-Password: 
-ftp>
-```
-
-To get files from the remote computer, we use get or mget:
-
-```
-ftp> get file.py
-local: file.pdf remote: file.py
-150 Opening BINARY mode data connection for file.py (180103 bytes).
-226 Transfer complete.
-180103 bytes received in 0.00 secs (109.0537 MB/s)
-ftp>
-```
-
-To transfer files to the remote computer, we can use put or mput:
-
-```
-ftp> put error.txt
-200 PORT command successful
-226-File successfully transferred
-226 0.849 seconds (measured here), 111.48 Kbytes per second
-96936 bytes sent in 0.322 seconds (225 kbytes/s)
-ftp>
-```
 
 ## Project 2: Video Rendering System
 
