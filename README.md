@@ -1,10 +1,6 @@
 # Renderbox
 
-#### Project Plan: Setting Up Linux Folder Sharing, Automated Video Rendering, and YouTube Video Download Docker Container
-
 ## Project 1: Setting Up Linux Folder Sharing
-
-### Objective:
 
 ftp is a network protocol for transferring files between a client and a server. We can use the ftp command-line client to connect to an ftp server and perform file transfers over the internet.
 
@@ -62,11 +58,7 @@ ftp> put error.txt
 ftp>
 ```
 
-## Project 2: Automated Video Rendering System
-
-### Objective:
-
-- Create an automated rendering system for video editing projects placed in a specified folder using Kdenlive.
+## Project 2: Video Rendering System
 
 ### Steps:
 
@@ -96,10 +88,6 @@ services:
 ```
 
 ## Project 3: Docker Container for YouTube Video Downloads
-
-### Objective:
-
-- Create a Docker container for downloading YouTube videos using youtube-dl and save them to the shared folder created in Project 1 on the Linux system.
 
 ### Steps:
 
