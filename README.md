@@ -1,6 +1,6 @@
 # Renderbox
 
-## Project 1: Sharing Videos from Laptop
+## Sharing Videos from Laptop
 
 Install and setup filezilla.
 
@@ -12,12 +12,11 @@ sudo apt update
 sudo apt install -y filezilla
 ```
 
-## Project 2: Video Rendering System
+## Video Rendering System
 
-### Steps:
+### Docker Compose:
 
 ```
----
 version: "2.1"
 services:
   kdenlive:
@@ -41,7 +40,7 @@ services:
     restart: unless-stopped
 ```
 
-## Project 3: Docker Container for YouTube Video Downloads
+## Docker Container for YouTube Video Downloads
 
 ### Steps:
 
