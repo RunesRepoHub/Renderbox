@@ -2,10 +2,15 @@
 
 ## Project 1: Sharing Videos from Laptop
 
-Here I am using VSC due to it being a lot quicker and better within my setup.
+Install and setup filezilla.
 
-You just need a way to send your videos from your wanted device ie laptop, desktop or server to the rendering server.
+```
+sudo apt update
+```
 
+```
+sudo apt install -y filezilla
+```
 
 ## Project 2: Video Rendering System
 
